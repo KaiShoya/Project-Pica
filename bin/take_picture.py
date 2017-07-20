@@ -7,8 +7,8 @@ import os
 import context
 
 #ローカルのディレクトリ存在確認(なければ作成)
-if not os.path.isdir(context.LOCAL_PATH):
-    os.mkdir(context.LOCAL_PATH)
+if not os.path.isdir(context.LOCAL_PATH+context.SAVE_DIRECTORY):
+    os.mkdir(context.LOCAL_PATH+context.SAVE_DIRECTORY)
 
 # タクトスイッチPIN番号
 TACT_SWITCH = 14

@@ -2,8 +2,9 @@
 # -*- coding: utf-8 -*-
 
 # 画像保存パス
-LOCAL_PATH="/home/pi/Picture/"
 REMOTE_PATH="foo"
+LOCAL_PATH="/home/pi/"
+SAVE_DIRECTORY="Picture/"
 # 拡張子
 EXTENSION=".jpg"
 
